@@ -121,7 +121,6 @@ nav ul li a:hover , nav ul li  a.current{
 }
 #img1{
     height: 400px;
-   
 }
 #img1 .hotelimg{
 float: left;
@@ -134,29 +133,148 @@ min-height: 100%;
     justify-content: center;
     background-color: #333;
     color: white;
-    height: 400px;
-    padding-top: 50px;
     display: block;
+    min-height: 100%;
     max-height: 100%;
+    width: 100;
+    overflow:hidden;
+    padding: 50px 30px;
 }
 #img1 .his span{
     color: #f7c08a;
 }
 #img1 h2{
+    padding-top: 50px;
     font-size: 30px;
-   
-    padding-bottom: 3%;
-    
+    line-height: 1.2em;
 }
 #img1 p{
     display: block;
   text-align: center;
   justify-content: right;
-     border: 5px solid yellow;
+ 
+
 }
 #img1 a{
-    
+  
     padding: 20px;
+    border:none;
     background-color: white;
+}
+#img1 a:hover{
+    background-color: #f7c08a;
+}
+.fbox {
+   float: left;
+   width: 33%;
+   padding: 50px;
+   text-align: center;
+   
+}
+.colored{
+   
+    background-color: #f7c08a;
+}
+.fbox i{
+    margin-bottom: 20px;
+}
+.clr{
+    clear: both;
+}
+.foot{
+text-align: center;
+background-color: #333;
+color: white;
+padding: 20px;
+}
+
+.aboutinf span{
+color: #f7c08a;
+}
+.rig{
+   width: 50%;
+   min-height: 100%;
+   float: right;
+ 
+
+}
+.rig img{
+width: 70%;
+display:block;
+margin: auto;
+padding-top: 50px;
+border-radius: 50%;
+
+}
+
+.aboutinf{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    padding: 50px;
+}
+
+.aboutinf h1{
+    font-size: 2.9em;
+    line-height: 1.2em;
+}
+
+#bottom{
+    background: url(Assests/test-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10% ;
+    display: block;
+
+}
+
+
+#bottom .heading1 h1{
+    color: white;
+    text-align: center;
+    font-size: 3.5em;
+    line-height: 1.2em;
+}
+.rev{
+    padding: 40px;
+}
+.rev img{
+width: 100px;
+border-radius: 50%;
+float: left;
+margin-right: 20px;
+
+
+}
+.rev p{
+  display: block;
+  margin: 10px 0;
+}
+.rev{
+    border: 1px solid #f7c08a;
+    background-color: #f7c08a;
+  
+    
+}
+.rev1{
+    padding: 40px;
+}
+.rev1 img{
+width: 100px;
+border-radius: 50%;
+float: left;
+margin-right: 20px;
+
+
+}
+.rev1 p{
+  display: block;
+  margin: 10px 0;
+}
+.rev1{
+    border: 1px solid #f7c08a;
+    background-color: #f7c08a;
+  
     
 }
