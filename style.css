@@ -183,7 +183,7 @@ min-height: 100%;
 }
 .foot{
 text-align: center;
-background-color: #333;
+background-color: #444;
 color: white;
 padding: 20px;
 }
@@ -275,6 +275,70 @@ margin-right: 20px;
 .rev1{
     border: 1px solid #f7c08a;
     background-color: #f7c08a;
-  
-    
 }
+
+
+
+    .contact-form{
+        padding: 10px;
+        margin: 20px;
+        justify-content: center;
+
+    }
+
+    
+
+    .contact-form span{
+color: #f7c08a;
+    }
+    .contact-form h1{ 
+        font-size: 3em;
+    }
+    .contact-form h3{
+        padding: 10px;
+        color: #333;
+        font-style: normal;
+    }
+
+    form{
+        padding: 10px;
+        margin: 20px;
+       
+        
+    }
+    form label{
+       font-size: 20px;
+       color: #444;
+      
+    }
+    form input{
+
+        width: 100%;
+        padding: 10px;
+       border: 1px solid lightgray;
+    }
+    form textarea{
+        width: 100%;
+        padding: 10px;
+       border: 1px solid lightgray;
+ 
+}
+    
+.icon-1 {
+    float: left;
+    width: 33%;
+    padding: 50px;
+    text-align: center;
+    background-color:#333;
+    color: white;
+    justify-content: center;
+
+ }
+
+ .icon-1 i{
+     margin-bottom: 20px;
+     padding-left: 10px;
+ }
+ .clr{
+     clear: both;
+ }
